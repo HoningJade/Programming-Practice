@@ -1,5 +1,4 @@
 # Programming-Practice
-# Programming-Practice
 
 My own practice for LeetCode and “牛客网” exercise.
 
