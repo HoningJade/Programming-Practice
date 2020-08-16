@@ -36,7 +36,7 @@ My own practice for LeetCode and “牛客网” exercise.
 
 
 
-## DFS, BFS, DP
+## DFS & BFS & DP
 
 | #    | Problem                                                     | Solution                                                     | Difficulty | Related Topics/Ideas |
 | ---- | ----------------------------------------------------------- | ------------------------------------------------------------ | ---------- | -------------------- |
