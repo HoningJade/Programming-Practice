@@ -1,6 +1,6 @@
 # Programming-Practice
 
-My own practice for LeetCode and “牛客网” exercises.
+My own practice for LeetCode and “牛客网” exercise.
 
 ## Hash Map
 
@@ -33,6 +33,16 @@ My own practice for LeetCode and “牛客网” exercises.
 | 142  | [Circular_linked_list](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/Circular_linked_list.md) | Medium     | Floyd Algorithm; Fast and slow pointers to transform the problem into a “追击问题”; Circular linked list |
 |      |                                                              |                                                              |            |                                                              |
 |      |                                                              |                                                              |            |                                                              |
+
+
+
+## DFS, BFS, DP
+
+| #    | Problem                                                     | Solution                                                     | Difficulty | Related Topics/Ideas |
+| ---- | ----------------------------------------------------------- | ------------------------------------------------------------ | ---------- | -------------------- |
+| 733  | [Color_image](https://leetcode-cn.com/problems/flood-fill/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/733_colorImage.md) | Easy       | DFS/BFS/Recursion    |
+|      |                                                             |                                                              |            |                      |
+|      |                                                             |                                                              |            |                      |
 
 
 
