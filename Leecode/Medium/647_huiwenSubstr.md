@@ -31,7 +31,7 @@ public:
 
 #### Sample Solution
 
--  枚举每一个可能的回文中心，然后用两个指针分别向左右两边拓展，当两个指针指向的元素相同的时候就拓展，否则停止拓展。时间复杂度 O($n^2$); 空间复杂度 O(1)
+- 枚举每一个可能的回文中心，然后用两个指针分别向左右两边拓展，当两个指针指向的元素相同的时候就拓展，否则停止拓展。时间复杂度 O($n^2$); 空间复杂度 O(1)
 
   ```c++
   class Solution {
@@ -50,17 +50,17 @@ public:
       }
   };
   ```
-  
+
 - Manacher 算法。时间复杂度：*O*(*n*); 空间复杂度：O(n)
 
   Manacher 算法是在线性时间内求解最长回文子串的算法。
-  
+
   Manacher 算法也会面临「方法一」中的奇数长度和偶数长度的问题，它的处理方式是在所有的相邻字符中间插入 \##，比如 abaaabaa 会被处理成 \#a\#b\#a\#a\##a#b#a#a#，这样可以保证所有找到的回文串都是奇数长度的，以任意一个字符为回文中心，既可以包含原来的奇数长度的情况，也可以包含原来偶数长度的情况。假设原字符串为 S，经过这个处理之后的字符串为 s。**(合并了奇偶，便于各个字符为中心的最大回文半径求和就是回文子串个数)**
-  
+
   我们用 f(i) 来表示以 s 的第 i 位为回文中心，可以拓展出的最大回文半径，那么 f(i) - 1就是以 i 为中心的最大回文串长度 （想一想为什么）。
-  
+
   ![image-20200819205342727](C:\Users\SURFACE\AppData\Roaming\Typora\typora-user-images\image-20200819205342727.png)
-  
+
   ```c++
   class Solution {
   public:
@@ -81,7 +81,7 @@ public:
               f[i] = (i <= rMax) ? min(rMax - i + 1, f[2 * iMax - i]) : 1;
               // 中心拓展
               while (t[i + f[i]] == t[i - f[i]]) ++f[i];
-            // 动态维护 iMax 和 rMax
+              // 动态维护 iMax 和 rMax
               if (i + f[i] - 1 > rMax) {
                   iMax = i;
                   rMax = i + f[i] - 1;
@@ -94,39 +94,8 @@ public:
       }
   };
   ```
+
   
-  
-  
-- ```c++
-class Solution {
-  public:
-      int getLength(ListNode* head) {
-          int ret = 0;
-          for (; head != nullptr; ++ret, head = head->next);
-          return ret;
-      }
-  
-      TreeNode* buildTree(ListNode*& head, int left, int right) {
-          if (left > right) {
-              return nullptr;
-          }
-          int mid = (left + right + 1) / 2;
-          TreeNode* root = new TreeNode();
-          root->left = buildTree(head, left, mid - 1);
-          root->val = head->val;
-          head = head->next;
-          root->right = buildTree(head, mid + 1, right);
-          return root;
-      }
-  
-      TreeNode* sortedListToBST(ListNode* head) {
-          int length = getLength(head);
-          return buildTree(head, 0, length - 1);
-      }
-  }; 
-  ```
-  
-  此外需要证明：对于任意的有序链表，我们的构造方法得到的二叉搜索树一定是平衡的。显然，如果二叉搜索树的左右子树都是平衡的，并且它们的高度差不超过 1，那么该二叉搜索树就是平衡的。
 
 #### Note
 
