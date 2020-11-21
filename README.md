@@ -38,18 +38,18 @@ My own practice for LeetCode and “牛客网” exercise.
 
 ## DFS & BFS & DP
 
-| #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------------------- |
-| 733  | [Color_image](https://leetcode-cn.com/problems/flood-fill/)  | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/733_colorImage.md) | Easy       | DFS/BFS/Recursion    |
-| 110  | [Balanced_tree](https://leetcode-cn.com/problems/balanced-binary-tree/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/110_Balanced_tree.md) | Easy       | Tree, DFS, 剪支      |
-|      |                                                              |                                                              |            |                      |
+| #       | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas |
+| ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------------------- |
+| 733     | [Color_image](https://leetcode-cn.com/problems/flood-fill/)  | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/733_colorImage.md) | Easy       | DFS/BFS/Recursion    |
+| 110     | [Balanced_tree](https://leetcode-cn.com/problems/balanced-binary-tree/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/110_Balanced_tree.md) | Easy       | Tree, DFS, 剪支      |
+| 281Lab9 | CycleDetected                                                | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/others/cycleDeteced.pdf) | Medium     | BFS, DFS, Union find |
 
 
 
 ## Recursion
 
-| #    | Problem                                                                         | Solution                                                                                                           | Difficulty | Related Topics/Ideas    |
-| ---- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------- | ----------------------- |
+| #    | Problem | Solution | Difficulty | Related Topics/Ideas |
+| ---- | ------- | -------- | ---------- | -------------------- |
 |      |         |          |            |                      |
 |      |         |          |            |                      |
 |      |         |          |            |                      |
