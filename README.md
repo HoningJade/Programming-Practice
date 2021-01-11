@@ -1,6 +1,6 @@
 # Programming-Practice
 
-Some of my programming practice. Problems come from [LeetCode]([题库 - 力扣 (LeetCode) 全球极客挚爱的技术成长平台 (leetcode-cn.com)](https://leetcode-cn.com/problemset/all/)) and [牛客网]([牛客网-找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网 (nowcoder.com)](https://www.nowcoder.com/)).
+Some of my programming practice. Problems come from [LeetCode](https://leetcode-cn.com/problemset/all/) and [牛客网](https://www.nowcoder.com/).
 
 ## Hash Map
 
