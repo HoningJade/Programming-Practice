@@ -60,7 +60,7 @@ Some of my programming practice. Problems come from [LeetCode](https://leetcode-
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | --------------------------------- |
 | 647        | [Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/647_huiwenSubstr.md) | Medium     | Manacher algorithm, loop, dp      |
 |            | [Text_exculde//](https://www.nowcoder.com/)                  | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/textExclude_Zijie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/textExclude_Zijie.cpp)) | Medium     | getline；字节跳动夏令营2019笔试题 |
-| Impressive | Form_String                                                  | [C++](https://github.com/HoningJade/Programming-Practice/upload/master/others) | Medium     | dp, string                        |
+| Impressive | Form_String                                                  | C++ | Medium     | dp, string                        |
 
 
 
