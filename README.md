@@ -1,18 +1,12 @@
 # Programming-Practice
 
-My own practice for LeetCode and “牛客网” exercise.
+Some of my programming practice. Problems come from [LeetCode]([题库 - 力扣 (LeetCode) 全球极客挚爱的技术成长平台 (leetcode-cn.com)](https://leetcode-cn.com/problemset/all/)) and [牛客网]([牛客网-找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网 (nowcoder.com)](https://www.nowcoder.com/)).
 
 ## Hash Map
 
 | #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas                                        |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------------------------------------------------- |
-|      |                                                              |                                                              |            |                                                             |
-|      |                                                              |                                                              |            |                                                             |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/Bracket_stack.md) | Easy       | 2020/08/14 daily exercise, stack & hash map (unordered_map) |
-|      |                                                              |                                                              |            |                                                             |
-|      |                                                              |                                                              |            |                                                             |
-|      |                                                              |                                                              |            |                                                             |
-|      |                                                              |                                                              |            |                                                             |
 
 
 
@@ -21,7 +15,6 @@ My own practice for LeetCode and “牛客网” exercise.
 | #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas                                        |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------------------------------------------------- |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/Bracket_stack.md) | Easy       | 2020/08/14 daily exercise, stack & hash map (unordered_map) |
-|      |                                                              |                                                              |            |                                                             |
 
 
 
@@ -31,8 +24,7 @@ My own practice for LeetCode and “牛客网” exercise.
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | 141  | [CircleInLinkedList](https://leetcode-cn.com/problems/linked-list-cycle/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/circularLinkedList.md) | Easy       | Circular Linked List; Pointers                               |
 | 142  | [Circular_linked_list](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/Circular_linked_list.md) | Medium     | Floyd Algorithm; Fast and slow pointers to transform the problem into a “追击问题”; Circular linked list |
-|      |                                                              |                                                              |            |                                                              |
-|      |                                                              |                                                              |            |                                                              |
+| 2    | [Sum_Two_Num]([2. 两数相加 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/add-two-numbers/)) | [C++]([2. 两数相加 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/add-two-numbers/)) | Medium     | Linked List; Addition                                        |
 
 
 
@@ -51,8 +43,6 @@ My own practice for LeetCode and “牛客网” exercise.
 | #    | Problem | Solution | Difficulty | Related Topics/Ideas |
 | ---- | ------- | -------- | ---------- | -------------------- |
 |      |         |          |            |                      |
-|      |         |          |            |                      |
-|      |         |          |            |                      |
 
 
 
@@ -61,21 +51,16 @@ My own practice for LeetCode and “牛客网” exercise.
 | #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas                                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | 109  | [LinkedListToTree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/109_linkedListToTree.md) | Medium     | Divide and conquer; in-order traverse; binary search tree; recursion |
-|      |                                                              |                                                              |            |                                                              |
-|      |                                                              |                                                              |            |                                                              |
-|      |                                                              |                                                              |            |                                                              |
-|      |                                                              |                                                              |            |                                                              |
 
 
 
 ## String
 
-| #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas              |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | --------------------------------- |
-| 647  | [Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings/) | [C++][https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/647_huiwenSubstr.md] | Medium     | Manacher algorithm, loop, dp      |
-|      | [Text_exculde//](https://www.nowcoder.com/)                  | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/textExclude_Zijie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/textExclude_Zijie.cpp)) | Medium     | getline；字节跳动夏令营2019笔试题 |
-|      |                                                              |                                                              |            |                                   |
-|      |                                                              |                                                              |            |                                   |
+| #          | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas              |
+| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | --------------------------------- |
+| 647        | [Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings/) | [C++][https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/647_huiwenSubstr.md] | Medium     | Manacher algorithm, loop, dp      |
+|            | [Text_exculde//](https://www.nowcoder.com/)                  | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/textExclude_Zijie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/textExclude_Zijie.cpp)) | Medium     | getline；字节跳动夏令营2019笔试题 |
+| Impressive | Form_String                                                  | [C++]([Upload files · HoningJade/Programming-Practice (github.com)](https://github.com/HoningJade/Programming-Practice/upload/master/others)) | Medium     | dp, string                        |
 
 
 
@@ -84,12 +69,3 @@ My own practice for LeetCode and “牛客网” exercise.
 | #    | Problem                                           | Solution                                                     | Difficulty | Related Topics/Ideas                                  |
 | ---- | ------------------------------------------------- | ------------------------------------------------------------ | ---------- | ----------------------------------------------------- |
 |      | [minus_number Problem](https://www.nowcoder.com/) | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/numMinus_ZiJie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/numMinus_ZiJie.cpp)) | Medium     | 先后手策略, Time complexity; 字节跳动夏令营2019笔试题 |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
-|      |                                                   |                                                              |            |                                                       |
