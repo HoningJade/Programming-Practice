@@ -44,7 +44,7 @@ Some of my programming practice. Problems come from [LeetCode](https://leetcode-
 
 | #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------------------- |
-| 29   | [Divide Two Integers](https://leetcode-cn.com/problems/divide-two-integers/) | [Python3](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/29_Divide%20Two%20Integers.md) | Medium     | recursion/iteration, |
+| 29   | [Divide Two Integers](https://leetcode-cn.com/problems/divide-two-integers/) | [Python3](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/29_Divide%20Two%20Integers.md) | Medium     | recursion/iteration, dichotomy |
 
 
 
