@@ -2,7 +2,7 @@
 
 Some of my programming practice. Problems come from [LeetCode](https://leetcode-cn.com/problemset/all/) and [牛客网](https://www.nowcoder.com/).
 
-## Hash Map
+## Hash Map & Tire
 
 | #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas                                        |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------------------------------------------------- |
