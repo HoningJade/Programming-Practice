@@ -7,6 +7,7 @@ Some of my programming practice. Problems come from [LeetCode](https://leetcode-
 | #    | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas                                        |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------------------------------------------------- |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Easy/Bracket_stack.md) | Easy       | 2020/08/14 daily exercise, stack & hash map (unordered_map) |
+| 212  | [WordSearch](https://leetcode-cn.com/problems/word-search-ii/) | [Python3 & C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Hard/212_WordSearch.md) | Hard       | Tire, backtracking, efficiency optimization                 |
 
 
 
