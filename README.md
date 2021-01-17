@@ -63,7 +63,7 @@ Some of my programming practice. Problems come from [LeetCode](https://leetcode-
 | #          | Problem                                                      | Solution                                                     | Difficulty | Related Topics/Ideas              |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | --------------------------------- |
 | 647        | [Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings/) | [C++](https://github.com/HoningJade/Programming-Practice/blob/master/Leecode/Medium/647_huiwenSubstr.md) | Medium     | Manacher algorithm, loop, dp      |
-|            | [Text_exculde//](https://www.nowcoder.com/)                  | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/textExclude_Zijie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/textExclude_Zijie.cpp)) | Medium     | getline；字节跳动夏令营2019笔试题 |
+|            | [Text_exculde//](https://www.nowcoder.com/)                  | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/textExclude_Zijie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/textExclude_Zijie.cpp)) | Medium     | getline |
 | Impressive | Form_String                                                  | C++ | Medium     | dp, string                        |
 
 
@@ -72,4 +72,4 @@ Some of my programming practice. Problems come from [LeetCode](https://leetcode-
 
 | #    | Problem                                           | Solution                                                     | Difficulty | Related Topics/Ideas                                  |
 | ---- | ------------------------------------------------- | ------------------------------------------------------------ | ---------- | ----------------------------------------------------- |
-|      | [minus_number Problem](https://www.nowcoder.com/) | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/numMinus_ZiJie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/numMinus_ZiJie.cpp)) | Medium     | 先后手策略, Time complexity; 字节跳动夏令营2019笔试题 |
+|      | [minus_number Problem](https://www.nowcoder.com/) | [C++]([https://github.com/HoningJade/Programming-Practice/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91/numMinus_ZiJie.cpp](https://github.com/HoningJade/Programming-Practice/blob/master/牛客网/numMinus_ZiJie.cpp)) | Medium     | 先后手策略, Time complexity |
