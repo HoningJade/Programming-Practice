@@ -8,7 +8,7 @@ The integer division should truncate toward zero, which means losing its fractio
 
 Note:
 
-Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−$2^{31}$,  $2^{31}$ − 1]. For this problem, assume that your function returns $2^{31}$ − 1 when the division result overflows.
+Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−$$2^{31}$$,  $$2^{31}$$ − 1]. For this problem, assume that your function returns $$2^{31}$$ − 1 when the division result overflows.
 
 
 Example 1:
@@ -33,7 +33,7 @@ Output: 1
 
 Constraints:
 
--$2^{31}$ <= dividend, divisor <= $2^{31}$ - 1
+-$$2^{31}$$ <= dividend, divisor <= $$2^{31}$$ - 1
 divisor != 0
 
 #### Solution
